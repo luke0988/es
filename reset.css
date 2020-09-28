@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 80px;
+    
+}
+.menu {
+    position: fixed;
+    
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+    background-color: black;
+
+    font-size: 0px;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 70px 20px 40px;
+    font-size: 18px;
+}
+.menu a:hover {
+    color: lawngreen;
+}
+
+.bp {
+    
+    width: 100%;
+    /* 適應最大螢幕高度 */
+    height: 100vh;
+    background-image: url(./pic/keyboard_og.jpg);
+    background-size: cover;
+    /* background-position: -10px 0; */
+}
+
+.ppp {
+    text-align: center;
+    transform: translateY(450px);
+}
+.ppp img {
+    width: 250px;
+    height: 150px;
+    margin: 0 50px;
+    border: 1px rgb(255, 255, 255) solid;
+    /* display: inline-block; */
+}
+
+
+    
+
+footer{
+    
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+footer p{
+    font-size: 18px;
+    color: grey;
+    
+    
+}
+
+
